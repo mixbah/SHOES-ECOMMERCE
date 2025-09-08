@@ -155,6 +155,8 @@ Found a bug or have a feature request? Feel free to open an issue. We believe in
 
 Project Link: [https://github.com/mixbah/SHOES-ECOMMERCE](https://github.com/mixbah/SHOES-ECOMMERCE)
 
+Preview : 
+
 ---
 
 *Built with love and a lot of creative energy. Sometimes the best code comes not from following every rule, but from following your instincts and letting the solution emerge naturally.*
