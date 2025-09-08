@@ -63,10 +63,10 @@ A modern, responsive e-commerce platform for shoe enthusiasts built with passion
    PORT=3000
    MONGODB_URI=mongodb://localhost:27017/shoes-ecommerce
    JWT_SECRET=your_jwt_secret_key
-   STRIPE_SECRET_KEY=your_stripe_secret_key
-   CLOUDINARY_CLOUD_NAME=your_cloudinary_name
-   CLOUDINARY_API_KEY=your_cloudinary_api_key
-   CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+   STRIPE_SECRET_KEY=your_stripe_secret_key //if needed
+   CLOUDINARY_CLOUD_NAME=your_cloudinary_name //if willing
+   CLOUDINARY_API_KEY=your_cloudinary_api_key //if willing
+   CLOUDINARY_API_SECRET=your_cloudinary_api_secret //if willing
    EMAIL_USER=your_email@gmail.com
    EMAIL_PASS=your_email_password
    ```
