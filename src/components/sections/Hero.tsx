@@ -21,7 +21,7 @@ const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/20 backdrop-blur-sm border border-white/20 animate-fade-in">
             <Sparkles className="h-4 w-4 text-accent" />
-            <span className="text-sm font-medium">New Collection 2024</span>
+            <span className="text-sm font-medium">New Collection</span>
           </div>
 
           {/* Main Headline */}
@@ -49,7 +49,7 @@ const Hero = () => {
                 element?.scrollIntoView({ behavior: 'smooth' });
               }}
             >
-              Shop Collection
+              Shop
               <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button 
@@ -68,7 +68,7 @@ const Hero = () => {
           {/* Stats */}
           <div className="flex flex-col sm:flex-row justify-center gap-8 pt-8 animate-fade-in">
             {[
-              { number: '50K+', label: 'Happy Customers' },
+              { number: '500+', label: 'Happy Customers' },
               { number: '100+', label: 'Premium Brands' },
               { number: '24/7', label: 'Support' }
             ].map((stat, index) => (
@@ -104,21 +104,16 @@ const Hero = () => {
             <h2 className="text-3xl font-bold mb-6 text-accent">Our Story</h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                Founded in 2020, SoleMate was born from a simple belief: everyone deserves to step into greatness. 
-                We started as a small team of sneaker enthusiasts who were frustrated by the lack of premium, 
-                comfortable footwear that didn't compromise on style.
+                It started with a worn-out pair of sneakers and a late-night revelation. In 2025, while scrolling through endless pages of disappointing footwear options, our founder realized something was missing from the shoe industry: soul. Not just comfort for your soles, but products with genuine soul. The market was flooded with mass-produced mediocrity, where style came at the expense of substance, and comfort meant compromising on aesthetics.
               </p>
               <p>
-                Today, we've partnered with over 100 premium brands worldwide, bringing you the latest in 
-                sneaker technology and design. From performance athletics to street fashion, we curate only 
-                the finest footwear that empowers you to walk confidently through life.
+                SoleMate emerged from countless conversations with fellow shoe lovers who shared the same frustration - why choose between style and substance? We believed footwear should be an extension of your personality, not a compromise. So we built something different. We spent months walking in shoes that didn't quite fit our vision, talking to craftsmen who shared our passion, and dreaming of a world where every step felt intentional. What started as a small rebellion against boring footwear has grown into a revolution of choice, quality, and authentic style.
               </p>
               <p>
-                Our mission remains unchanged: to provide exceptional shoes that combine cutting-edge technology 
-                with timeless style, ensuring every step you take is a step toward greatness.
+                We're not just another shoe retailer. We're curators of confidence, collectors of craftsmanship, and believers that the right pair of shoes can change how you see the world - and how the world sees you. Every pair in our collection has been chosen not just for its appearance, but for its story, its purpose, and its power to make you feel unstoppable. Because we know that when you find the perfect shoe, you don't just walk differently - you live differently.
               </p>
               <div className="flex items-center gap-4 pt-4">
-                <div className="text-2xl font-bold text-accent">50K+</div>
+                <div className="text-2xl font-bold text-accent">500+</div>
                 <div className="text-sm">Happy customers worldwide</div>
               </div>
             </div>

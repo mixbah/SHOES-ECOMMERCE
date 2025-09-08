@@ -33,7 +33,7 @@ const Footer = () => {
               />
               <Button variant="hero" className="shrink-0">
                 <Mail className="h-4 w-4" />
-                Subscribe
+                BE A PART
               </Button>
             </div>
           </div>
@@ -107,11 +107,11 @@ const Footer = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-accent shrink-0" />
-                <span className="text-white/80">123 Fashion St, Style City, SC 12345</span>
+                <span className="text-white/80">123 Fashion Street, Style City, SC 12345</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-accent shrink-0" />
-                <span className="text-white/80">+1 (555) 123-4567</span>
+                <span className="text-white/80">+91 98-3123-4567</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-accent shrink-0" />
@@ -132,7 +132,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center justify-center space-x-3">
               <Truck className="h-6 w-6 text-accent" />
-              <span className="text-white/80">Free Shipping Over $75</span>
+              <span className="text-white/80">Free Shipping Over Rs75</span>
             </div>
             <div className="flex items-center justify-center space-x-3">
               <CreditCard className="h-6 w-6 text-accent" />
