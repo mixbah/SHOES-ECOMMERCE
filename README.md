@@ -154,9 +154,9 @@ Found a bug or have a feature request? Feel free to open an issue. We believe in
 
 **Mixbah** - [GitHub Profile](https://github.com/mixbah)
 
-Project Link: [https://github.com/mixbah/SHOES-ECOMMERCE](https://github.com/mixbah/SHOES-ECOMMERCE)
+Project Link: (https://github.com/mixbah/SHOES-ECOMMERCE)
 
-Preview : 
+Preview : [https://shoes-ecommerce-jet.vercel.app]
 
 ---
 
