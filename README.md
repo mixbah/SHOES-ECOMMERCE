@@ -156,7 +156,7 @@ Found a bug or have a feature request? Feel free to open an issue. We believe in
 
 Project Link: [https://github.com/mixbah/SHOES-ECOMMERCE]
 
-Preview : [https://shoes-ecommerce-cyan.vercel.app]
+Preview : [https://shoes-ecommerce-gold.vercel.app]
 
 ---
 
