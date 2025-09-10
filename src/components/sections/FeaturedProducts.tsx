@@ -149,7 +149,7 @@ const FeaturedProducts = () => {
     
     toast({
       title: "Added to cart!",
-      description: `Rs{product.name} has been added to your cart.`,
+      description: `${product.name} has been added to your cart.`,
     });
   };
 
@@ -177,11 +177,11 @@ const FeaturedProducts = () => {
         {/* Section Header */}
         <div className="text-center mb-12 space-y-4">
           <h2 className="text-3xl md:text-4xl font-bold">
-            {searchQuery ? `Search Results for "Rs{searchQuery}"` : 'Featured Products'}
+            {searchQuery ? `Search Results for "${searchQuery}"` : 'Featured Products'}
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             {searchQuery 
-              ? `Found Rs{displayedProducts.length} product(s) matching your search`
+              ? `Found ${displayedProducts.length} product(s) matching your search`
               : 'Discover our handpicked selection of premium footwear that combines style, comfort, and performance for every lifestyle.'
             }
           </p>
@@ -228,7 +228,7 @@ const FeaturedProducts = () => {
                     onClick={() => toggleFavorite(product)}
                   >
                     <Heart 
-                      className={`h-4 w-4 Rs{isFavorite(product.id) ? 'fill-red-500 text-red-500' : ''}`} 
+                      className={`h-4 w-4 ${isFavorite(product.id) ? 'fill-red-500 text-red-500' : ''}`} 
                     />
                   </Button>
                   <Button variant="secondary" size="icon" className="h-8 w-8 shadow-medium">
@@ -279,7 +279,7 @@ const FeaturedProducts = () => {
                     {product.colors.map((color, index) => (
                       <div
                         key={index}
-                        className={`w-4 h-4 rounded-full border-2 border-white shadow-soft Rs{
+                        className={`w-4 h-4 rounded-full border-2 border-white shadow-soft ${
                           color === 'black' ? 'bg-black' :
                           color === 'white' ? 'bg-white border-gray-300' :
                           color === 'orange' ? 'bg-orange-500' :
