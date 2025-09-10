@@ -14,7 +14,7 @@ import SizeGuide from "./pages/SizeGuide";
 import ShippingInfo from "./pages/ShippingInfo";
 import Returns from "./pages/Returns";
 import FAQ from "./pages/FAQ";
-
+import ScrollToTop from "./components/ui/ScrollToTop";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -26,6 +26,7 @@ const App = () => (
             <Toaster />
             <Sonner />
         <BrowserRouter>
+        <ScrollToTop />
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/about" element={<AboutUs />} />

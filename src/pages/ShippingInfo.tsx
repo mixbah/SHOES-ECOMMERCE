@@ -26,8 +26,8 @@ const ShippingInfo = () => {
                 <CardTitle>Standard Shipping</CardTitle>
               </CardHeader>
               <CardContent className="text-center space-y-3">
-                <Badge variant="secondary">FREE on orders $75+</Badge>
-                <p className="text-2xl font-bold">$5.99</p>
+                <Badge variant="secondary">FREE on orders Rs75+</Badge>
+                <p className="text-2xl font-bold">Rs5.99</p>
                 <p className="text-sm text-muted-foreground">5-7 business days</p>
                 <p className="text-xs text-muted-foreground">Ground shipping via FedEx/UPS</p>
               </CardContent>
@@ -40,7 +40,7 @@ const ShippingInfo = () => {
               </CardHeader>
               <CardContent className="text-center space-y-3">
                 <Badge variant="outline">2-3 Days</Badge>
-                <p className="text-2xl font-bold">$12.99</p>
+                <p className="text-2xl font-bold">Rs12.99</p>
                 <p className="text-sm text-muted-foreground">2-3 business days</p>
                 <p className="text-xs text-muted-foreground">Express air delivery</p>
               </CardContent>
@@ -53,7 +53,7 @@ const ShippingInfo = () => {
               </CardHeader>
               <CardContent className="text-center space-y-3">
                 <Badge variant="destructive">Next Day</Badge>
-                <p className="text-2xl font-bold">$24.99</p>
+                <p className="text-2xl font-bold">Rs24.99</p>
                 <p className="text-sm text-muted-foreground">Next business day</p>
                 <p className="text-xs text-muted-foreground">Orders by 2 PM EST</p>
               </CardContent>
@@ -115,26 +115,26 @@ const ShippingInfo = () => {
                     <tr className="border-b hover:bg-muted/50">
                       <td className="p-3">Canada</td>
                       <td className="p-3">5-10 business days</td>
-                      <td className="p-3">$15.99</td>
-                      <td className="p-3">Orders $100+</td>
+                      <td className="p-3">Rs15.99</td>
+                      <td className="p-3">Orders Rs100+</td>
                     </tr>
                     <tr className="border-b hover:bg-muted/50">
                       <td className="p-3">Europe</td>
                       <td className="p-3">7-14 business days</td>
-                      <td className="p-3">$25.99</td>
-                      <td className="p-3">Orders $150+</td>
+                      <td className="p-3">Rs25.99</td>
+                      <td className="p-3">Orders Rs150+</td>
                     </tr>
                     <tr className="border-b hover:bg-muted/50">
                       <td className="p-3">Australia</td>
                       <td className="p-3">10-15 business days</td>
-                      <td className="p-3">$29.99</td>
-                      <td className="p-3">Orders $200+</td>
+                      <td className="p-3">Rs29.99</td>
+                      <td className="p-3">Orders Rs200+</td>
                     </tr>
                     <tr className="border-b hover:bg-muted/50">
                       <td className="p-3">Asia</td>
                       <td className="p-3">10-20 business days</td>
-                      <td className="p-3">$35.99</td>
-                      <td className="p-3">Orders $200+</td>
+                      <td className="p-3">Rs35.99</td>
+                      <td className="p-3">Orders Rs200+</td>
                     </tr>
                   </tbody>
                 </table>
@@ -176,7 +176,7 @@ const ShippingInfo = () => {
                   <ul className="space-y-2 text-sm text-muted-foreground">
                     <li>• Contact us if package doesn't arrive</li>
                     <li>• Safe delivery guarantee</li>
-                    <li>• Signature required for orders over $300</li>
+                    <li>• Signature required for orders over Rs300</li>
                     <li>• Redelivery options available</li>
                   </ul>
                 </div>

@@ -188,7 +188,7 @@ const FAQ = () => {
                   href="tel:+15551234567" 
                   className="inline-flex items-center justify-center px-6 py-2 border border-input bg-background hover:bg-accent hover:text-accent-foreground rounded-md transition-colors"
                 >
-                  Call (555) 123-4567
+                  Call +91 (91) 0123-4567
                 </a>
               </div>
             </CardContent>

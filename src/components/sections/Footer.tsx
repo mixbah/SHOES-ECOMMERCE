@@ -147,7 +147,7 @@ const Footer = () => {
         <div className="container px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-white/60 text-sm">
-              © 2024 SoleMate. All rights reserved.
+              © 2025 SoleMate. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
               <a href="#" className="text-white/60 hover:text-accent transition-smooth">Privacy Policy</a>

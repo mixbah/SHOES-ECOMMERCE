@@ -14,7 +14,7 @@ const AboutUs = () => {
           <div className="text-center space-y-6">
             <h1 className="text-4xl md:text-5xl font-bold">About SoleMate</h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Your trusted partner for premium footwear since 2020. We believe every step should be comfortable, stylish, and confident.
+              Your trusted partner for premium footwear since 2025. We believe every step should be comfortable, stylish, and confident.
             </p>
           </div>
 
@@ -24,12 +24,11 @@ const AboutUs = () => {
               <h2 className="text-2xl font-bold mb-6">Our Story</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Founded in 2020 by a team of footwear enthusiasts, SoleMate was born from a simple belief: 
+                  Founded in 2025 by a team of enthusiasts, SoleMate was born from a simple belief: 
                   everyone deserves shoes that don't just look good, but feel incredible too.
                 </p>
                 <p>
-                  We started with a mission to bridge the gap between style and comfort, sourcing the finest materials 
-                  and working with skilled craftspeople to create footwear that stands the test of time.
+                 We started with a mission to bridge the gap between style and comfort, sourcing the finest materials and working with skilled craftspeople to create footwear that stands the test of time. Our founder spent years traveling the world, learning from master cobblers and discovering traditional techniques that have been passed down through generations. From the supple Italian leather we carefully select to the precision stitching that ensures durability, every element is chosen with purpose. We partner exclusively with artisans who share our commitment to excellence, creating shoes that honor both heritage craftsmanship and contemporary innovation. The result is footwear that doesn't just look exceptional it performs exceptionally, mile after mile, year after year.
                 </p>
                 <p>
                   Today, we're proud to serve customers worldwide, offering a curated selection of premium shoes 

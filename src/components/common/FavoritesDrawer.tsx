@@ -79,7 +79,7 @@ const FavoritesDrawer = () => {
                   <div className="flex-1 min-w-0">
                     <h4 className="font-medium text-sm leading-tight">{item.name}</h4>
                     <p className="text-xs text-muted-foreground">{item.brand}</p>
-                    <p className="text-sm font-semibold text-accent">${item.price}</p>
+                    <p className="text-sm font-semibold text-accent">Rs{item.price}</p>
                   </div>
                   <div className="flex flex-col gap-2">
                     <Button
