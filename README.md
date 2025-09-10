@@ -63,10 +63,10 @@ A modern, responsive e-commerce platform for shoe enthusiasts built with passion
    PORT=3000
    MONGODB_URI=mongodb://localhost:27017/shoes-ecommerce
    JWT_SECRET=your_jwt_secret_key
-   STRIPE_SECRET_KEY=your_stripe_secret_key
-   CLOUDINARY_CLOUD_NAME=your_cloudinary_name
-   CLOUDINARY_API_KEY=your_cloudinary_api_key
-   CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+   STRIPE_SECRET_KEY=your_stripe_secret_key //if needed
+   CLOUDINARY_CLOUD_NAME=your_cloudinary_name //if willing
+   CLOUDINARY_API_KEY=your_cloudinary_api_key //if willing
+   CLOUDINARY_API_SECRET=your_cloudinary_api_secret //if willing
    EMAIL_USER=your_email@gmail.com
    EMAIL_PASS=your_email_password
    ```
@@ -81,7 +81,11 @@ A modern, responsive e-commerce platform for shoe enthusiasts built with passion
 
 ## Screenshots
 
+<<<<<<< HEAD
 ![alt text](<Screenshot 2025-09-08 at 11.32.33 AM.png>) ![alt text](<Screenshot 2025-09-08 at 11.32.51 AM.png>)
+=======
+<img width="1680" height="991" alt="Screenshot 2025-09-08 at 11 32 33 AM" src="https://github.com/user-attachments/assets/96eb8be9-ebb3-4b2b-8c77-4eef7be88223" />
+>>>>>>> b78a8e37f12d5184646d9dc06e5c3c9de06ceb2d
 
 
 ## Design Philosophy
@@ -154,9 +158,9 @@ Found a bug or have a feature request? Feel free to open an issue. We believe in
 
 **Mixbah** - [GitHub Profile](https://github.com/mixbah)
 
-Project Link: [https://github.com/mixbah/SHOES-ECOMMERCE](https://github.com/mixbah/SHOES-ECOMMERCE)
+Project Link: [https://github.com/mixbah/SHOES-ECOMMERCE]
 
-Preview : 
+Preview : [https://shoes-ecommerce-gold.vercel.app]
 
 ---
 
