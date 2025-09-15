@@ -1,8 +1,11 @@
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Sparkles } from 'lucide-react';
 import heroImage from '@/assets/hero-shoes.jpg';
+import { useMediaQuery } from "react-responsive";
 
 const Hero = () => {
+  const isTablet: boolean = useMediaQuery({ query: "(max-width: 1024px)" });
+  const isMobile: boolean = useMediaQuery({ query: "(max-width: 768px)" });
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background">
       {/* Background Image with Overlay */}
@@ -82,11 +85,11 @@ const Hero = () => {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      {!isMobile && !isTablet && <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <div className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center">
           <div className="w-1 h-3 bg-white/50 rounded-full mt-2 animate-pulse"></div>
         </div>
-      </div>
+      </div>}
 
       {/* Story Modal */}
       <div id="story-modal" className="hidden fixed inset-0 z-[60] bg-black/80 backdrop-blur-sm">
