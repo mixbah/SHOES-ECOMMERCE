@@ -81,12 +81,7 @@ A modern, responsive e-commerce platform for shoe enthusiasts built with passion
 
 ## Screenshots
 
-<<<<<<< HEAD
-![alt text](<Screenshot 2025-09-08 at 11.32.33 AM.png>) ![alt text](<Screenshot 2025-09-08 at 11.32.51 AM.png>)
-=======
 <img width="1680" height="991" alt="Screenshot 2025-09-08 at 11 32 33 AM" src="https://github.com/user-attachments/assets/96eb8be9-ebb3-4b2b-8c77-4eef7be88223" />
->>>>>>> b78a8e37f12d5184646d9dc06e5c3c9de06ceb2d
-
 
 ## Design Philosophy
 
